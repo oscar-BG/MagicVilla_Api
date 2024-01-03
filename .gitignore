@@ -1,0 +1,52 @@
+# Ignorar archivos de configuración de Visual Studio
+.vscode/
+.vs/
+
+# Ignorar archivos y carpetas generados por compilación
+bin/
+obj/
+
+# Ignorar archivos de usuario y configuración
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Ignorar archivos de NuGet
+*.nuget/
+packages/
+
+# Ignorar archivos de compilación
+*.dll
+*.pdb
+*.dll.config
+*.exe
+*.cache
+*.log
+
+# Ignorar archivos generados por Rider
+.idea/
+
+# Ignorar archivos temporales de Rider
+*.suo
+*.user
+*.userprefs
+*.log
+*.resharper
+
+# Ignorar carpetas específicas
+[Tt]est[Rr]esult*/
+[Bb]in*/
+[Oo]bj*/
+
+# Ignorar archivos de configuración del entorno
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+
+# Ignorar archivos de compilación de MSBuild
+[Tt]est[Bb]in/
+[Tt]est[Rr]esults/
+
+# Ignorar archivos de Visual Studio Code
+.vscode/
